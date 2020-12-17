@@ -1,0 +1,9 @@
+PLAN
+
+-generate pug *
+
+-create routes/framework osv *
+
+-create git, heroku osv *
+
+-choose database? *
