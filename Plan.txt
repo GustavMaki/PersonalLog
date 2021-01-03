@@ -1,17 +1,9 @@
-PLAN
+Planering
 
--generate pug *
+-generate pug
 
--create routes/framework osv *
+-create routes/framework osv
 
--create git, heroku osv *
+-create git, heroku osv
 
--choose database? *
-
-https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal?filterByFormula=Entry="hej"
-
-https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal/rec0fPvHyR5aDxz75
-
-https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal
-
-Bearer keypdbXZeoldeTC7L
+-choose database?
