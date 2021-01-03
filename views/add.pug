@@ -2,7 +2,8 @@ extends layout
 
 block content
   h1= title
-  
+  a(href= "/backlog", id= "backButton") Backlog
+  br
   
   form(id= "addForm")
     textarea(id= "addText", placeholder= "HJÄLP", maxlength="40")
