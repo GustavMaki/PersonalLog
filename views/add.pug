@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  
+  
+  form(id= "addForm")
+    textarea(id= "addText", placeholder= "HJÄLP", maxlength="40")
+    p(type="submit" id="addButton") Add 
+
+  script(src="/javascripts/add.js")
