@@ -1,3 +1,10 @@
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+id = urlParams.get('');
+console.log(id);
+
+document.getElementById("backButton").href="/backlog?=" + id
+
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
 
@@ -7,7 +14,8 @@ var text= document.getElementById("addText").value;
 
 const addData = {
     "fields":{
-        "Entry": text
+        "Entry": text,
+        "User": id
     }
 }
 
