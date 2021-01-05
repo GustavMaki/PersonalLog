@@ -2,6 +2,14 @@ extends layout
 
 block content
 
+    div(id="header")
+        h1(id="titleText") Diary
+        
+  
+
+    p(id="accountInfo") Choose an account
+
     div(id="accountBox")
-        a(href="/add?=User1") User1
-        a(href="/add?=User2") User2
+        a(href="/backlog?=User1" id="account") User1
+        a(href="/backlog?=User2" id="account") User2
+        a(href="/backlog?=User3" id="account") User3

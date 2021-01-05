@@ -1,9 +1,10 @@
 extends layout
 
 block content
-  a(href= "/backlog", id= "backButton") Backlog
-  br
-  
+
+  div(id="header")
+    h1(id="titleText") Diary
+    
   form(id= "addForm")
     textarea(id= "addText", placeholder= "HJÄLP", maxlength="40")
     p(type="submit" id="addButton") Add 

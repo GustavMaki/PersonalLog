@@ -14,7 +14,11 @@ CHRISTMAS PROJECT: PERSONAL Journal APP
         URL: "/backlog" -->  Backlog page where you can view and delete entries.
 
 
-    DATABASE:
+    DATABASE CONTENT: 
+        ID: Journalentries unique id.
+        Entry: The text content of each entry.
+        Datetime: Saves the complete date and time of entries creation.
+        Date: Saves the date in a cleaner format for UX purposes.
 
 __________
 

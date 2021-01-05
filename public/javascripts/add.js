@@ -23,7 +23,7 @@ fetch (url, {method: 'POST' , body: JSON.stringify(addData),
 headers: {'Authorization': 'Bearer keypdbXZeoldeTC7L', 'Content-Type': 'application/json'}})
 .then(response => response.json())
 .then(json => {console.log(json)
-    window.location.href= "/add";})
+    window.location.href= "/add?="+ id;})
 .catch(err => console.log (err));
 
 });
