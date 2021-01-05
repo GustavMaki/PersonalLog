@@ -3,7 +3,6 @@ const urlParams = new URLSearchParams(queryString);
 id = urlParams.get('');
 console.log(id);
 
-document.getElementById("backButton").href="/backlog?=" + id
 
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
