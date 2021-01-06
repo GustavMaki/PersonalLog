@@ -88,3 +88,9 @@ hr{
 #ListDate{
   font-size: 1vw;
 }
+#writeLogo{
+  width:22%;
+  position: fixed;
+  margin-left: 70%;
+  margin-top: 90%;
+}

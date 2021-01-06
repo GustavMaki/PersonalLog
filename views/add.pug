@@ -3,7 +3,10 @@ extends layout
 block content
 
   div(id="header")
+    img(id="addLogo",src="images/logo.png", href= "/add") 
     h1(id="titleText") Diary
+    br 
+    hr
     
   form(id= "addForm")
     textarea(id= "addText", placeholder= "HJÄLP", maxlength="40")

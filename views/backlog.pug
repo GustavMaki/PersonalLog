@@ -10,11 +10,12 @@ block content
 
   form(id= "addForm")
     input(type="text", id= "addText", placeholder= "HJÄLP", maxlength="40")
-    p(type="submit" id="addButton") Add 
-    
-  
+    p(type="submit" id="addButton") Add
+
+  a(href= "/", id= "EntryButton")  
+    img(id="writeLogo",src="images/write.png", href= "/add")
   ul#log
 
-  a(href= "/add", id= "EntryButton") jjjjjj
+  
 
   script(src="/javascripts/log.js")
