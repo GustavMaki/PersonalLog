@@ -28,5 +28,10 @@ plan for dates:
 05- extra functions + cssUX
 
 06- cssUX
+    add ruta
+        x knapp
+        add/ v knapp
+    fixed write logga knapp backlog
+    dropdown för konto? isf ändra routing
 
-07- testing+ cssUX
+07-  cssUX +sorting
