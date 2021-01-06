@@ -14,4 +14,8 @@ router.get('/account', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
+router.get('/delete', function(req, res, next) {
+  res.render('delete', { title: 'Home' });
+});
+
 module.exports = router;

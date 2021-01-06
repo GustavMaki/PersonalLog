@@ -2,17 +2,15 @@ extends layout
 
 block content
 
-    div(id="header")
+
+  div(id="header")
     img(id="addLogo",src="images/logo.png", href= "/add") 
     h1(id="titleText") Diary
     br 
     hr
         
-  
-
-    p(id="accountInfo") Choose an account
-
     div(id="accountBox")
-        a(href="/?=User1" id="account") User1
-        a(href="/?=User2" id="account") User2
-        a(href="/?=User3" id="account") User3
+        p(id="accountInfo") Choose an account
+        a(href="/?=User1" id="account1") User1
+        a(href="/?=User2" id="account2") User2
+        a(href="/?=User3" id="account3") User3
