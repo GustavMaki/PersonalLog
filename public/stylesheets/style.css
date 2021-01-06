@@ -53,7 +53,7 @@ hr{
   background-color: #DADADA;
   width: 92%;
   margin-left: 0%;
-  padding:2.5% 4% 27% 4%;
+  padding:2% 4% 27% 4%;
   border-radius:20px;
   margin-top: 50%;
 }
@@ -119,4 +119,11 @@ hr{
   width:17%;
   float:right;
   margin-right: 1%;
+}
+
+#xLogo{
+  margin-top:7%;
+  width:7%;
+  float:left;
+  margin-left: 1%;
 }
