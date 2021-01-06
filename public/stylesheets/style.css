@@ -50,8 +50,8 @@ hr{
 
 #addForm{
   background-color: #DADADA;
-  width: 95%;
-  margin-left: -1.5%;
+  width: 92%;
+  margin-left: 0%;
   padding:0% 4% 30% 4%;
   border-radius:20px;
   margin-top: 50%;
@@ -61,8 +61,8 @@ hr{
   width: 98%;
   margin:0 auto;
   margin-top: 7%;
-  height: 10vw;
-  font-size: 6vw;
+  height: 8vw;
+  font-size: 5vw;
   border-radius: 20px;
   border: none;
   padding:4% 0% 1% 3%;
@@ -108,7 +108,7 @@ hr{
 }
 
 #backButton{
-  font-size: 16vw;
+  font-size: 14vw;
   font-family: 'Euphoria Script';
   margin-left: 2%;
 }
