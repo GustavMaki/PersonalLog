@@ -82,11 +82,11 @@ hr{
 }
 
 #ListText{
-  font-size: 2.5vw;
+  font-size: 3.5vw;
 }
 
 #ListDate{
-  font-size: 1vw;
+  font-size: 2vw;
 }
 #writeLogo{
   width:22%;
@@ -98,6 +98,6 @@ hr{
 #accountLogo{
   width:10%;
   position: fixed;
-  margin-top: 6%;
-  margin-left: 5.2%;
+  margin-top: 6.5%;
+  margin-left: 5.5%;
 }
