@@ -5,6 +5,9 @@ console.log(id);
 
 document.getElementById("backButton").href="/?=" + id
 
+
+
+
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
 
@@ -15,7 +18,8 @@ var text= document.getElementById("addText").value;
 const addData = {
     "fields":{
         "Entry": text,
-        "User": id
+        "User": id,
+        "Star": document.getElementById("favOption").value
     }
 }
 

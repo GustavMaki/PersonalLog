@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #F8F8F8;
   color: black;
   font-family: 'Encode Sans Semi Expanded';
@@ -53,9 +53,9 @@ hr{
 #addText{
   width: 98%;
   margin:0 auto;
-  margin-top: 13%;
+  margin-top: 16%;
   height: 7vw;
-  font-size: 4vw;
+  font-size: 2vw;
   border-radius: 20px;
   border: none;
   padding:4% 0% 1% 3%;
@@ -88,6 +88,17 @@ hr{
   font-size: 2vw;
   margin-left: 3%;
 }
+
+#starText{
+  font-size: 4.5vw;
+  margin-left: 3%;
+}
+
+#starDate{
+  font-size: 3vw;
+  margin-left: 3%;
+}
+
 #writeLogo{
   width:22%;
   position: fixed;
@@ -109,14 +120,14 @@ hr{
 }
 
 #saveLogo{
-  margin-top:7%;
-  width:17%;
+  margin-top:10%;
+  width:14%;
   float:right;
   margin-right: 1%;
 }
 
 #xLogo{
-  margin-top:7%;
+  margin-top:4.5%;
   width:7%;
   float:left;
   margin-left: 1%;
@@ -196,10 +207,31 @@ hr{
 }
 
 #favChoice{
-  width:15%;
+  width:12%;
   float:left;
-  margin-left: 20%;
-  margin-top: 5%;
+  margin-left: 0%;
+  margin-top: 18%;
+}
+
+#star{
+  border: 0px;
+    width: 100%;
+    height: 5em;
+    position: fixed;
+    margin-top: 16.5%;
+    margin-left: -46%;
+}
+
+#favOption{
+  width: 15%;
+  height:5vw;
+  border: none;
+  border-radius: 20px;
+  background-color: #F8F8F8;
+  margin-top: 17.5%;
+  position: fixed;
+  font-size: 2vw;
+  margin-left: 2%;
 }
 
 

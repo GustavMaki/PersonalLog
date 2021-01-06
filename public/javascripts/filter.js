@@ -20,16 +20,16 @@ fetch(url)
         const li = document.createElement("p");
         li.classList.add("log");
         
-        
+        if(data.records[i].fields.Star === "1"){
         
         const markup = `
           <div id= "backlogObj">
-              <p id="ListText">${data.records[i].fields.Entry}</p>
-              <p id="ListDate">${data.records[i].fields.Date}</p>
+              <p id="starText">${data.records[i].fields.Entry}</p>
+              <p id="starDate">${data.records[i].fields.Date}</p>
           </div>
         `;
        
         li.innerHTML = markup;
         document.getElementById("log").appendChild(li);
-     }
+     }}
 });
