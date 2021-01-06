@@ -3,6 +3,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #F8F8F8;
   color: black;
+  font-family: 'Encode Sans Semi Expanded';
 }
 
 a {
@@ -52,7 +53,7 @@ hr{
   background-color: #DADADA;
   width: 92%;
   margin-left: 0%;
-  padding:0% 4% 30% 4%;
+  padding:2.5% 4% 27% 4%;
   border-radius:20px;
   margin-top: 50%;
 }
@@ -60,7 +61,7 @@ hr{
 #addText{
   width: 98%;
   margin:0 auto;
-  margin-top: 7%;
+  margin-top: 13%;
   height: 8vw;
   font-size: 5vw;
   border-radius: 20px;
@@ -108,13 +109,14 @@ hr{
 }
 
 #backButton{
-  font-size: 14vw;
-  font-family: 'Euphoria Script';
+  font-size: 10vw;
+  font-family: 'Balsamiq Sans';
   margin-left: 2%;
 }
 
 #saveLogo{
-  margin-top:5%;
-  width:20%;
+  margin-top:7%;
+  width:17%;
   float:right;
+  margin-right: 1%;
 }
