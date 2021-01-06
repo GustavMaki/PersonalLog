@@ -11,9 +11,11 @@ a {
 }
 
 hr{
-  margin-top:13%;
+  margin-top:15.1%;
+  margin-left: 5.5%;
   height:1px;
   background-color: black;
+  width:90%;
 }
 
 #header{
@@ -48,17 +50,17 @@ hr{
 
 #addForm{
   background-color: #3D3D3D;
-  width: 103%;
-  margin-left: -4%;
+  width: 95%;
+  margin-left: 0%;
   padding:5% 2% 5% 3%;
   border-radius:20px;
-  margin-top: 30%;
+  margin-top: 17%;
 }
 
 #addText{
   width: 98%;
   margin:0 auto;
-  height: 10vw;
+  height: 7vw;
   font-size: 3vw;
 }
 
@@ -67,7 +69,7 @@ hr{
 }
 
 #log{
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 #backlogObj{
@@ -84,5 +86,5 @@ hr{
 }
 
 #ListDate{
-  font-size: 2.5vw;
+  font-size: 1vw;
 }

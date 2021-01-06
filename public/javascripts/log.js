@@ -27,4 +27,27 @@ fetch(url)
         li.innerHTML = markup;
         document.getElementById("log").appendChild(li);
      }
-      })
+      });
+
+document.querySelector("p").addEventListener("click", e => {
+    e.preventDefault();
+
+url ='https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal';
+
+var text= document.getElementById("addText").value;
+
+const addData = {
+    "fields":{
+        "Entry": text,
+        "User": id
+    }
+}
+
+fetch (url, {method: 'POST' , body: JSON.stringify(addData),
+headers: {'Authorization': 'Bearer keypdbXZeoldeTC7L', 'Content-Type': 'application/json'}})
+.then(response => response.json())
+.then(json => {console.log(json)
+    window.location.href= "/backlog?="+ id;})
+.catch(err => console.log (err));
+
+});
