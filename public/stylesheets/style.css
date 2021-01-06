@@ -49,19 +49,24 @@ hr{
 }
 
 #addForm{
-  background-color: #3D3D3D;
+  background-color: #DADADA;
   width: 95%;
-  margin-left: 0%;
-  padding:5% 2% 5% 3%;
+  margin-left: -1.5%;
+  padding:0% 4% 30% 4%;
   border-radius:20px;
-  margin-top: 17%;
+  margin-top: 50%;
 }
 
 #addText{
   width: 98%;
   margin:0 auto;
-  height: 7vw;
-  font-size: 3vw;
+  margin-top: 7%;
+  height: 10vw;
+  font-size: 6vw;
+  border-radius: 20px;
+  border: none;
+  padding:4% 0% 1% 3%;
+  margin-left: -0.6%;
 }
 
 #addButton{
@@ -69,7 +74,7 @@ hr{
 }
 
 #log{
-  margin-top: 20%;
+  margin-top: 25%;
 }
 
 #backlogObj{
@@ -100,4 +105,16 @@ hr{
   position: fixed;
   margin-top: 6.5%;
   margin-left: 5.5%;
+}
+
+#backButton{
+  font-size: 16vw;
+  font-family: 'Euphoria Script';
+  margin-left: 2%;
+}
+
+#saveLogo{
+  margin-top:5%;
+  width:20%;
+  float:right;
 }

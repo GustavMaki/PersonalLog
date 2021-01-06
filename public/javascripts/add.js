@@ -3,6 +3,7 @@ const urlParams = new URLSearchParams(queryString);
 id = urlParams.get('');
 console.log(id);
 
+document.getElementById("backButton").href="/?=" + id
 
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
@@ -22,7 +23,7 @@ fetch (url, {method: 'POST' , body: JSON.stringify(addData),
 headers: {'Authorization': 'Bearer keypdbXZeoldeTC7L', 'Content-Type': 'application/json'}})
 .then(response => response.json())
 .then(json => {console.log(json)
-    window.location.href= "/add?="+ id;})
+    window.location.href= "/?="+ id;})
 .catch(err => console.log (err));
 
 });
