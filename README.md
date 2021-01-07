@@ -10,8 +10,10 @@ CHRISTMAS PROJECT: PERSONAL Journal APP
 
 
     ROUTES:
-        URL: "/"        -->  Homepage where you can add journal entries.
-        URL: "/backlog" -->  Backlog page where you can view and delete entries.
+        URL: "/"          -->  Homepage where you can view all entries.
+        URL: "/add"       -->  Add page where you can add new entries.
+        URL: "/account"   -->  Account page where you can change accounts.
+        URL: "/favorites" -->  Favorites page where you can view star marked entries.
 
 
     DATABASE CONTENT: 
