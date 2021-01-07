@@ -42,7 +42,7 @@ hr{
 }
 
 #addForm{
-  background-color: #DADADA;
+  background-color: #E4E9FF;
   width: 92%;
   margin-left: 0%;
   padding:2% 4% 2% 4%;
@@ -134,9 +134,9 @@ hr{
 }
 
 #accountBox{
-  background-color: #DADADA;
+  background-color:  #E4E9FF;
   width:60%;
-  height:60vw;
+  height:65vw;
   border-radius: 20px;
   margin-top: 18%;
   margin-left: 21%;
@@ -148,6 +148,10 @@ hr{
   margin-top: 20%;
   position: fixed;
   border: 1px black;
+  background-color: #F8F8F8;
+  padding:2%;
+  width:41%;
+  border-radius: 20px;
 }
 
 #account2{
@@ -155,6 +159,10 @@ hr{
   margin-top: 33%;
   margin-left: 7%;
   position: fixed;
+  background-color: #F8F8F8;
+  padding:2%;
+  width:41%;
+  border-radius: 20px;
 }
 
 #account3{
@@ -162,6 +170,15 @@ hr{
   margin-top: 46%;
   margin-left: 7%;
   position: fixed;
+  background-color: #F8F8F8;
+  padding:2%;
+  width:41%;
+  border-radius: 20px;
+}
+
+#account1:active, #account2:active, #account3:active {
+  outline: none;
+  background-color: #F8F8F8;
 }
 
 #accountInfo{
@@ -231,6 +248,11 @@ hr{
   margin-top: 16.1%;
   font-size: 2vw;
   margin-left: 2%;
+}
+
+#favEntry{
+  width:7%;
+  float: right;
 }
 
 

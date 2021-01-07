@@ -9,8 +9,8 @@ document.getElementById("backButton").href="/?=" + id
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
 
-if(document.getElementById("favOption").value === "1") color= "#FFFFDA";
-if(document.getElementById("favOption").value === "0") color= "#FFDFFF";
+if(document.getElementById("favOption").value === "1") color= "#F3E9FF";
+if(document.getElementById("favOption").value === "0") color= "#E4E9FF";
 
 url ='https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal';
 

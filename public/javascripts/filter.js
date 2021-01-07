@@ -22,12 +22,13 @@ fetch(url)
         
         if(data.records[i].fields.Star === "1"){
         
-        const markup = `
-        <div id= "backlogObj" style="background-color:${data.records[i].fields.Color}">
-              <p id="starText">${data.records[i].fields.Entry}</p>
-              <p id="ListDate">${data.records[i].fields.Date}</p>
-          </div>
-        `;
+            const markup = `
+            <div id= "backlogObj" style="background-color:${data.records[i].fields.Color}">
+            <img id="favEntry", src="images/star.png">
+                <p id="ListText">${data.records[i].fields.Entry}</p>
+                <p id="ListDate">${data.records[i].fields.Date}</p>
+            </div>
+          `;
        
         li.innerHTML = markup;
         document.getElementById("log").appendChild(li);
