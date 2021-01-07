@@ -3,8 +3,8 @@ const urlParams = new URLSearchParams(queryString);
 id = urlParams.get('');
 console.log(id);
 
-document.getElementById("EntryButton").href="/add?=" + id
-document.getElementById("filterLink").href="/favorites?=" + id
+document.getElementById("EntryButton").href="/add?=" + id;
+document.getElementById("filterLink").href="/favorites?=" + id;
 
 
 url =`https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal?filterByFormula=User="${id}"&sort%5B0%5D%5Bfield%5D=Date&sort%5B0%5D%5Bdirection%5D=desc&api_key=keypdbXZeoldeTC7L`;
@@ -23,7 +23,7 @@ fetch(url)
         
         
         const markup = `
-          <div id= "backlogObj">
+          <div id= "backlogObj" style="background-color:${data.records[i].fields.Color}">
               <p id="ListText">${data.records[i].fields.Entry}</p>
               <p id="ListDate">${data.records[i].fields.Date}</p>
           </div>

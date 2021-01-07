@@ -2,14 +2,15 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 id = urlParams.get('');
 console.log(id);
+var color;
 
 document.getElementById("backButton").href="/?=" + id
 
-
-
-
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
+
+if(document.getElementById("favOption").value === "1") color= "#FFFFDA";
+if(document.getElementById("favOption").value === "0") color= "#FFDFFF";
 
 url ='https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal';
 
@@ -19,7 +20,8 @@ const addData = {
     "fields":{
         "Entry": text,
         "User": id,
-        "Star": document.getElementById("favOption").value
+        "Star": document.getElementById("favOption").value,
+        "Color": color
     }
 }
 
