@@ -81,7 +81,7 @@ hr{
 }
 
 #ListText{
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   margin-left: 3%;
 }
 
@@ -91,7 +91,7 @@ hr{
 }
 
 #starText{
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   margin-left: 3%;
 }
 
@@ -104,7 +104,7 @@ hr{
   width:22%;
   position: fixed;
   margin-left: 70%;
-  margin-top: 50%;
+  margin-top: 82vh;
 }
 
 #accountLogo{
