@@ -103,8 +103,8 @@ hr{
 #writeLogo{
   width:22%;
   position: fixed;
+  bottom:3%;
   margin-left: 70%;
-  margin-top: 145%;
 }
 
 #accountLogo{
