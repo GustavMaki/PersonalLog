@@ -4,7 +4,8 @@ id = urlParams.get('');
 console.log(id);
 var color;
 
-document.getElementById("backButton").href="/?=" + id
+document.getElementById("backButton").href="/?=" + id;
+document.getElementById("accountName").innerText=id;
 
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();

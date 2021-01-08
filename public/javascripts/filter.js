@@ -5,6 +5,7 @@ console.log(id);
 
 document.getElementById("EntryButton").href="/add?=" + id;
 document.getElementById("allLink").href="/?=" + id;
+document.getElementById("accountName").innerText=id;
 
 
 url =`https://api.airtable.com/v0/appZiXTCH56y3q7Yk/journal?filterByFormula=User="${id}"&sort%5B0%5D%5Bfield%5D=Date&sort%5B0%5D%5Bdirection%5D=desc&api_key=keypdbXZeoldeTC7L`;
