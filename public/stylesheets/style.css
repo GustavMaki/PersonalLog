@@ -81,22 +81,22 @@ hr{
 }
 
 #ListText{
-  font-size: 4.5vw;
+  font-size: 4vw;
   margin-left: 3%;
 }
 
 #ListDate{
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-left: 3%;
 }
 
 #starText{
-  font-size: 4.5vw;
+  font-size: 4vw;
   margin-left: 3%;
 }
 
 #starDate{
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-left: 3%;
 }
 
@@ -104,7 +104,7 @@ hr{
   width:22%;
   position: fixed;
   margin-left: 70%;
-  margin-top: 82vh;
+  margin-top: 145%;
 }
 
 #accountLogo{
@@ -135,11 +135,11 @@ hr{
 }
 
 #accountBox{
-  background-color:  #E4E9FF;
+  background-color:  #F3E9FF;
   width:60%;
   height:65vw;
   border-radius: 20px;
-  margin-top: 18%;
+  margin-top: 30%;
   margin-left: 21%;
 }
 
