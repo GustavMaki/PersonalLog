@@ -256,4 +256,11 @@ hr{
   float: right;
 }
 
+#accountName{
+  position: fixed;
+  font-size: 4vw;
+  margin-left: 17%;
+  margin-top: 8.8%;
+}
+
 
