@@ -1,0 +1,27 @@
+extends layout
+
+block content
+
+  div(id="header")
+    img(id="addLogo",src="images/logo.png", href= "/add") 
+    h1(id="titleText") Diary
+    a(href= "/account", id= "accountButton") 
+      img(id="accountLogo",src="images/account.png", href= "/add")
+    br 
+    hr
+    
+  form(id= "addForm")
+    a(href= "/", id= "backButton", value= "x") 
+      img(id="xLogo",src="images/x.png", href= "/add")
+    br
+    textarea(id= "addText", placeholder= "", font-size="10px" maxlength="40")
+
+    select(form = "addform", id= "favOption" required)
+      option(id= "starOption", value="0") STANDARD
+      option(id= "starOption", value="1") STAR
+
+    img(id="favChoice",src="images/star.png", href= "/add")
+    p(type="submit" id="addButton")
+      img(id="saveLogo",src="images/save.png", href= "/add")   
+
+  script(src="/javascripts/add.js")
